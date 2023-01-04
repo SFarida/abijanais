@@ -135,6 +135,9 @@ const toggleChefs = () => {
       const h5Text = document.createTextNode(speakers[i].title);
       h5.appendChild(h5Text);
       divContent.appendChild(h5)
+      const hr = document.createElement('hr');
+      hr.classList.add('speakers_line', 'mb-3')
+      divContent.appendChild(hr);
       // Creating the paragraph for the description
       const p = document.createElement('p');
       const pText = document.createTextNode(speakers[i].description);

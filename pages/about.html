@@ -6,65 +6,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Délices Abidjanais | About</title>
-    <link rel="stylesheet" href="../assets/css/index.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/about.css" />
     <!-- Font Awesome icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <main>
         <header class="">
-            <div class="fixed_menu">
-                <div class="container">
-                   <ul class="">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">My Page</a></li>
-                    <li><a href="#">Logout</a></li>
-                   </ul>
-                </div>
-            </div>
-            <div>
-                <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
-                    <div class="container">
-                      <a class="navbar-brand" href="#">Délices Abidjanais</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav d-flex align-items-center">
+          <div class="fixed_menu">
+              <div class="container">
+                  <ul class="">
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#">English</a></li>
+                      <li><a href="#">My Page</a></li>
+                      <li><a href="#">Logout</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div>
+              <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" id="nav_">
+                  <div class="menu_bar">
+                      <a href="#" onclick="toggleMenu()">
+                          <i class="fa fa-bars me-5 fa-3x" id="menu_hamburger"></i>
+                          <i class="fa fa-times me-5 fa-3x" aria-hidden="true" id="close_btn"></i>
+                      </a>
+                  </div>
+                  <a class="brand animate__animated animate__bounceIn" href="#">Délices Abidjanais</a>
+                  <div class="menu" id="menu">
+                      <ul class="d-flex align-items-center">
                           <li class="nav-item">
-                            <a class="nav-link active_link" href="#" aria-current="page">About</a>
+                              <a class="nav-link active_link" href="#" aria-current="page">About</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Program</a>
+                              <a class="nav-link" href="#">Program</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Join</a>
+                              <a class="nav-link" href="#">Join</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Sponsor</a>
+                              <a class="nav-link" href="#">Sponsor</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
+                              <a class="nav-link" href="#">News</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
+                              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                           </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
-            </div>
-        </header>
-        <section>
-            <p>About</p>
+                      </ul>
+                  </div>
+              </nav>
+          </div>
+      </header>
+        <section class="hello_section flex-column">
+          <div class="welcome_heading container text-center">
+            <h1>Your delicious snacks</h1>
+            <hr class="line mb-5">
+        </div>
+        <div class="bg-light container">
+          <p class="m-5 text">
+            The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons affiliate network 
+            in a different country every two years. This year, we hope to expand our invitation list including organizations and individuals who want 
+            to work with us on shared projects that advance the cause of the Commons, free culture and open knowledge. So if you're active and engaged 
+            in the worlds of open content and knowledge - free software advocates, wikipedians, Open knowledge, galleries, libraries, museums, archives, 
+            governments and foundations, lawyers, and activists - we hope you'll consider joining us this year to build a stronger, more vibrant commons 
+            together
+          </p>
+        </div>
+        <div class="email">
+          <p>
+            Please contact us per Email for nay further questions about CC Global Summit 2015!
+          </p>
+          <span>ccsummit2015@cckorea.org</span>
+        </div>
         </section>
+        <section class="summit">
+          <div class="container text-center">
+            <h3>Creative Commons Global Summit 2015 Logo</h3>
+            <hr class="line mb-5">
+            <p>
+              The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July.
+              After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize.
+              After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:
+            </p>
+            <img src="../assets/images/about_logo1.png" alt="About logo">
+          </div>
+          <div class="container my-5 text-center">
+            <h3>See the past CC Global Summits</h3>
+            <hr class="line mb-5">
+            <p>Take a look at the past two CC Global Summits which took place in Buenos Aires and in Warsaw</p>
+            <div class="d-flex justify-content-center flex-wrap">
+              <img class="m-1" src="../assets/images/about_2011.png" alt="Summit 2011" />
+              <img class="m-1" src="../assets/images/about_2013.png" alt="Summit 2013" />
+            </div>
+          </div>
+        </section>
+        <section class="partners">
+          <div class="partners_container">
+              <h3 class="text-center pt-3">Partner</h3>
+              <hr class="line mb-5">
+              <div class="pb-3">
+                  <ul>
+                      <li><a href="#"><img src="../assets/images/partners/mozilla 1.png" alt="Mozilla"></a></li>
+                      <li><a href="#"><img src="../assets/images/partners/googlekorea 1.png" alt="Google"></a></li>
+                      <li><a href="#"><img src="../assets/images/partners/naver 1.png" alt="Naver"></a></li>
+                      <li><a href="#"><img src="../assets/images/partners/daumkakaologo 1.png" alt="Daumkakao"></a></li>
+                      <li><a href="#"><img src="../assets/images/partners/airbnb 1.png" alt="Airbnb"></a></li>
+                  </ul>
+              </div>
+          </div>
+      </section>
+        <footer>
+          <div class="d-flex justify-content-center align-items-center">
+              <h3 class="mx-3"><a class="brand" href="#">Abidjanais</a></h3>
+              <p>2023 Délices Abidjanais. Some rights reserved</p>
+          </div>
+      </footer>
     </main>
     <script src="../assets/js/index.js"></script>
     <!-- Bootstrap popper and js -->
