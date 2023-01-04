@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Délices Abidjanais</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- Font Awesome icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <main>
+        <header class="">
+            <div class="fixed_menu">
+                <div class="container">
+                    <ul class="">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">My Page</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" id="nav_">
+                    <div class="menu_bar">
+                        <a href="#" onclick="toggleMenu()">
+                            <i class="fa fa-bars me-5 fa-3x" id="menu_hamburger"></i>
+                            <i class="fa fa-times me-5 fa-3x" aria-hidden="true" id="close_btn"></i>
+                        </a>
+                    </div>
+                    <a class="brand" href="#">Délices Abidjanais</a>
+                    <div class="menu" id="menu">
+                        <ul class="d-flex align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Program</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Join</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sponsor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active_link" aria-current="page" href="#">Home</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="hello_section">
+            <div class="container">
+                <div class="hello">
+                    <div class="welcome_heading">
+                        <p>Savor with pleasure</p>
+                        <h1>Your delicious snacks</h1>
+                    </div>
+                    <div class="py-5">
+                        <p class="welcome_text border border-5 border-light p-3 border-opacity-75">
+                            A joyful celebration believing in the value of openness and sharing, creating a positive
+                            change
+                            with people from over 80 countries is taking place in October, in Korea.
+                        </p>
+                    </div>
+                    <div class="secondary_text">
+                        <h3 class="welcome_h3">2023.10.15(THU) ~ 16(FRI)</h3>
+                        <p>
+                            @ National Museum of Karea, Art Center Nabi and more
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="specialities">
+            <h3 class="text-center pb-5">Main Program</h3>
+            <div class="container_program">
+                <div class="row">
+                    <div class="col-md program_items">
+                        <i class="fa fa-cutlery fa-2x pb-2 pt-3" aria-hidden="true"></i>
+                        <h4 class="py-2">Pancake</h4>
+                        <p class="pt-2 pb-3">Listen to the speakers from various countries about the messages of sharing
+                            and opening.</p>
+                    </div>
+                    <div class="col-md program_item">
+                        <i class="fa fa-cutlery fa-2x pb-2 pt-3" aria-hidden="true"></i>
+                        <h4 class="py-2">Pizza</h4>
+                        <p class="pt-2 pb-3">Listen to the speakers from various countries about the messages of sharing
+                            and opening.</p>
+                    </div>
+                    <div class="col-md program_item">
+                        <i class="fa fa-cutlery fa-2x pb-2 pt-3" aria-hidden="true"></i>
+                        <h4 class="py-2">Nems</h4>
+                        <p class="pt-2 pb-3">Listen to the speakers from various countries about the messages of sharing
+                            and opening.</p>
+                    </div>
+                    <div class="col-md program_item">
+                        <i class="fa fa-cutlery fa-2x pb-2 pt-3" aria-hidden="true"></i>
+                        <h4 class="py-2">Cake</h4>
+                        <p class="pt-2 pb-3">Listen to the speakers from various countries about the messages of sharing
+                            and opening.</p>
+                    </div>
+                    <div class="col-md program_item">
+                        <i class="fa fa-cutlery fa-2x pb-2 pt-3" aria-hidden="true"></i>
+                        <h4 class="py-2">Pancake</h4>
+                        <p class="pt-2 pb-3">Listen to the speakers from various countries about the messages of sharing
+                            and opening.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cooks">
+            <h3>Our chefs</h3>
+            <hr class="line mb-5">
+            <div class="cooks_container" id="cooks_container">
+
+            </div>
+            <button type="button" class="btn btn-outline-dark more" onclick="toggleChefs()">MORE <i class="fa fa-caret-down mx-1 text-danger"
+                    aria-hidden="true"></i></button>
+        </section>
+        <section class="partners">
+            <div class="partners_container">
+                <h3 class="text-center pt-3">Partner</h3>
+                <hr class="line mb-5">
+                <div class="pb-3">
+                    <ul>
+                        <li><a href="#"><img src="assets/images/partners/mozilla 1.png" alt="Mozilla"></a></li>
+                        <li><a href="#"><img src="assets/images/partners/googlekorea 1.png" alt="Google"></a></li>
+                        <li><a href="#"><img src="assets/images/partners/naver 1.png" alt="Naver"></a></li>
+                        <li><a href="#"><img src="assets/images/partners/daumkakaologo 1.png" alt="Daumkakao"></a></li>
+                        <li><a href="#"><img src="assets/images/partners/airbnb 1.png" alt="Airbnb"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="d-flex justify-content-center align-items-center">
+                <h3 class="mx-3"><a class="brand" href="#">Abidjanais</a></h3>
+                <p>2023 Délices Abidjanais. Some rights reserved</p>
+            </div>
+        </footer>
+    </main>
+    <script src="assets/js/index.js"></script>
+    <!-- Bootstrap popper and js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

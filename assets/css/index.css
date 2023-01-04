@@ -1,0 +1,426 @@
+body {
+  font-family: 'Lato', serif !important;
+  width: 100%;
+}
+
+/* main {
+  overflow: hidden;
+} */
+
+/** Fixed top menu **/
+.fixed_menu {
+  background-color: #3E3E3E;
+}
+
+.fixed_menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.fixed_menu li {
+  margin-right: 2%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.fixed_menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+/** Navbar */
+.navbar {
+  padding-left: 2% !important;
+}
+
+.menu_bar {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.navbar li {
+  margin-right: 5%;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.125em;
+  color: #868686;
+}
+
+.navbar li .active_link {
+  border: 5px solid #EC4327;
+  color: #EC4327;
+}
+
+.navbar li a {
+  padding: 5px;
+}
+
+.brand {
+  align-self: center;
+  text-decoration: none;
+  color: #EC4327;
+  font-weight: 900;
+  font-size: 1.9375em;
+  width: 38%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1% 5% 1% 5%;
+  align-items: flex-end;
+  width: 60%;
+  justify-content: space-around;
+}
+
+/** Head section */
+.hello_section {
+  display: flex;
+  background: linear-gradient(to right, rgba(167, 207, 223, 0) 0%, rgba(230, 230, 230, 0.95) 0%), url(../images/background.jpg);
+  height: calc(100vh - 93px);
+  padding-top: 5%;
+}
+
+.hello {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.welcome_text {
+  font-weight: 400;
+  font-size: 1.5625em;
+  color: #515151;
+}
+
+.welcome_heading {
+  color: #EC4327;
+}
+
+.welcome_heading p {
+  font-weight: 400;
+  font-size: 1.875em;
+}
+
+.welcome_heading h1 {
+  font-weight: 900;
+  font-size: 5em;
+  text-transform: uppercase;
+  background: url('../images/fast-food-burger-french-fries-coffee.jpg') repeat-x;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: contain;
+}
+
+.secondary_text h3 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.625em;
+  color: #595959;
+}
+
+.secondary_text p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75em;
+  color: #868686;
+}
+
+.test {
+  width: 100%;
+  height: 10px;
+  background-color: aqua;
+}
+
+/** Specialities **/
+.specialities {
+  /* background-image: url('../images/speciality-bg.png'); */
+  background: linear-gradient(to right, rgba(167, 207, 223, 0) 0%, rgba(40, 43, 50, 0.95) 0%), url(../images/speciality-bg.png);
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: white;
+}
+
+.specialities h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.875em;
+}
+
+.specialities h4 {
+  color: #FF5438;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.special_menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_program {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.program_item {
+  backdrop-filter: blur(4px);
+  margin-right: 1px;
+  border: 1px solid #282B32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/** Cooks **/
+
+.cooks {
+  margin-top: 10%;
+}
+
+.cooks h3 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.875em;
+  color: #000000;
+}
+
+.line {
+  width: 3%;
+  margin: 0 auto;
+  border-top: 2px solid #A04038;
+}
+
+.cooks_container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.speakers_col {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  /* width: 40%; */
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}
+
+.div_contain {
+  display: flex;
+  flex-direction: column;
+}
+
+.div_contain h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+.div_contain h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9375em;
+  color: #F78C89;
+}
+
+.div_contain p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875em;
+  color: #000000;
+}
+
+.more {
+  visibility:hidden;
+}
+
+/** Partners **/
+.partners{
+  background: #414246;
+}
+
+.partners_container{
+  margin: 5% 10% 5% 10%;
+}
+
+.partners ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partners li{
+  list-style: none;
+}
+
+@media screen and (max-width: 990px) {
+  .menu {
+    margin-right: 40%;
+  }
+
+  .hello {
+    width: 100%;
+  }
+
+  .navbar {
+    justify-content: start !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fixed_menu {
+    display: none;
+  }
+
+  .mobile_menu {
+    display: block;
+    /* height: 100vh; */
+  }
+
+  .mobile_menu ul {
+    display: flex;
+    flex-direction: column;
+    /* padding: auto 10%; */
+  }
+
+  .mobile_header {
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 10%;
+    gap: 15%;
+    justify-content: flex-start;
+  }
+
+  .mobile_header .menu_bar {
+    align-self: flex-start;
+    padding-right: 24px;
+  }
+
+  /* .mobile_header .flex_one {
+    align-self: flex-start;
+  } */
+
+  .mobile_header .menu {
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .mobile_header li {
+    margin-right: 10%;
+    margin-bottom: 12%;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    border-bottom: 1px solid #6f6c6b;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .show {
+    display: block !important;
+  }
+
+  .hide {
+    display: none !important;
+  }
+
+  .menu_bar #close_btn {
+    display: none;
+  }
+
+  .menu_bar {
+    display: block;
+  }
+
+  .menu_bar a {
+    text-decoration: none;
+  }
+
+  .menu_bar i {
+    color: #595959;
+  }
+
+  /* .header_container {
+    display: none;
+  } */
+  .brand {
+    font-size: 1.5em;
+  }
+
+  .welcome_heading h1 {
+    font-size: 3em;
+  }
+
+  .secondary_text h3 {
+    font-size: 1.625em;
+  }
+
+  .hello_section {
+    height: fit-content;
+  }
+
+  .program_item {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2%;
+  }
+
+  .program_item i {
+    width: 10%;
+  }
+
+  .program_item h4 {
+    width: 70%;
+  }
+
+  .container_program {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .more {
+    visibility: visible;
+    font-weight: 700;
+    font-size: 0.6875em;
+    align-items: center;
+    letter-spacing: -0.05em;
+    color: #000000;
+    width: 90%;
+    margin: 10% 5% 1% 5%;
+  }
+
+  .mobile_toggle{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .program_item {
+    flex-wrap: wrap;
+  }
+}
