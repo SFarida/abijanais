@@ -195,7 +195,7 @@ body {
   color: white;
 }
 
-.specialities button{
+.specialities button {
   display: none;
 }
 
@@ -275,6 +275,10 @@ body {
 
 .partners_container {
   margin: 5% 10% 5% 10%;
+}
+
+.partners img {
+  width: 100%;
 }
 
 .partners ul {
@@ -434,13 +438,24 @@ body {
     display: none;
   }
 
-  .program_link{
+  .program_link {
     display: none;
   }
 
-  .specialities button{
+  .specialities button {
     display: block;
     margin: 5% auto;
+  }
+  .partners_container {
+    margin: 5% 2% 5% 2%;
+  }
+  
+  .partners img {
+    width: 60%;
+  }
+
+  .partners ul{
+    justify-content: space-evenly;
   }
 }
 

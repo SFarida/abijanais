@@ -65,7 +65,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> This is a showcase site with some little animations. The following stacks were used
+This is a showcase site with some little animations. The following stacks were used
 
 <details>
   <ul>
@@ -80,7 +80,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Check the technical project description [here](https://www.loom.com/share/e47b12fad96a4d9d8293bfb38e8010cf) .
+Check the technical project description [here](https://www.loom.com/share/e47b12fad96a4d9d8293bfb38e8010cf) .
 
 - **Order food**
 - **Delivery service**
