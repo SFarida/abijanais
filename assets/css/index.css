@@ -325,9 +325,11 @@ body {
   .mobile_header {
     flex-direction: column;
     height: 100vh;
+    width: 100%;
     padding-top: 10%;
     gap: 15%;
     justify-content: flex-start;
+    position: fixed !important;
   }
 
   .menu_bar #close_btn {
