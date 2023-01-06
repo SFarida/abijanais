@@ -80,7 +80,7 @@ This is a showcase site with some little animations. The following stacks were u
 
 ### Key Features <a name="key-features"></a>
 
-Check the technical project description [here](https://www.loom.com/share/e47b12fad96a4d9d8293bfb38e8010cf) .
+Check the technical project description [here](https://www.loom.com/share/80574176130444089df62bb6e259c62f) .
 
 - **Order food**
 - **Delivery service**

@@ -272,7 +272,7 @@ body {
 }
 
 .partners img {
-  width: 100%;
+  width: 40%;
 }
 
 .partners ul {
@@ -284,6 +284,20 @@ body {
 
 .partners li {
   list-style: none;
+  padding: 10px;
+  margin: 1%;
+  width: 20%;
+}
+
+.footer{
+  background-color: #2E2E2E;
+  margin-bottom: 1px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer p{
+  color:  white;
 }
 
 @media screen and (max-width: 990px) {
@@ -455,6 +469,21 @@ body {
 
   .partners ul {
     justify-content: space-evenly;
+  }
+
+  .partners li {
+    width: 30%;
+  }
+
+  .footer{
+    background-color: white;
+    margin-bottom: 1px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .footer p{
+    color:  black;
   }
 }
 
