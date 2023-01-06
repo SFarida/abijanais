@@ -80,7 +80,7 @@ This is a showcase site with some little animations. The following stacks were u
 
 ### Key Features <a name="key-features"></a>
 
-Check the technical project description [here](https://www.loom.com/share/80574176130444089df62bb6e259c62f) .
+Check the technical project description [here](https://www.loom.com/share/def0734f21e14af1a0734796cae8f24b) .
 
 - **Order food**
 - **Delivery service**
@@ -227,7 +227,7 @@ If you like this project you can follow me on github for more.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for providing me with the necessary resources.
-Also, I will like to give credit to  Cindy Shin the author of the original design I used. Not forgetting Freepik for the pictures, Wikipedia and norwalk.edu blog on kitchen hierarchy career for the content.
+Also, I will like to give credit to  [Cindy Shin in Behance](https://www.behance.net/adagio07) the author of the original design I used. Not forgetting Freepik for the pictures, Wikipedia and norwalk.edu blog on kitchen hierarchy career for the content.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
