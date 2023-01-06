@@ -226,9 +226,8 @@ If you like this project you can follow me on github for more.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank Microverse for providing me with the necessary resources.
+Also, I will like to give credit to  Cindy Shin the author of the original design I used. Not forgetting Freepik for the pictures, Wikipedia and norwalk.edu blog on kitchen hierarchy career for the content.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
